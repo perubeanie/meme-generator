@@ -1,0 +1,29 @@
+### Retrieve public memes
+GET http://localhost:3001/api/publicMemes
+
+
+### Retrieve all memes
+GET http://localhost:3001/api/memes
+
+
+### Login
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{"username": "drake_bird@lib.it", "password":"bird01"} 
+
+
+### Logout
+DELETE http://localhost:3001/api/logout/current
+
+DELETE hh
+
+
+###Get current user
+GET http://localhost:3001/api/user/current
+
+###Create meme
+POST http://localhost:3001/api/memes/createMeme
+Content-Type: application/json
+
+{"title" : "Space", "image" : "Fry", "visibility" : "Public", "sentence1" : "YES", "sentence2" : "SIR", "sentence3" : "!", "font" : "Impact", "color" : "White", "copy": 0}
