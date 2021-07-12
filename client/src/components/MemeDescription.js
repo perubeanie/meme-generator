@@ -39,8 +39,6 @@ function MemeDescription(props) {
     const location = useLocation();
     const meme = location.state ? location.state.meme : '';
 
-    console.log(props.images + 'from meme property');
-
     return (
         <Row className="vh-auto">
             <Col xs={7}>
